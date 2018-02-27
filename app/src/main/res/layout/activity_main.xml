@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.androidanimation.MainActivity">
+
+    <Button
+        android:id="@+id/btn_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帧动画"/>
+
+    <Button
+        android:id="@+id/btn_tween"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补间动画"/>
+
+    <Button
+        android:id="@+id/btn_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画"/>
+
+    <ImageView
+        android:id="@+id/iv_tween"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/login_wechat"/>
+</LinearLayout>
